@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    padding: .5rem 3rem .5rem;
+    border-bottom: 2px solid #2C5364;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.link {
+    background-color: inherit;
+    padding: 0.6rem;
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+  
+  .link:hover {
+    cursor: pointer;
+    box-shadow: rgba(140, 140, 169, 0.25) 0px 30px 60px -12px inset,
+      rgba(140, 115, 115, 0.3) 0px 18px 36px -18px inset;
+    opacity: 1;
+    
+  }
+  .link:active {
+    background-color: rgb(72, 131, 131);
+  }
